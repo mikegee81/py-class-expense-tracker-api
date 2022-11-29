@@ -1,0 +1,17 @@
+Configure remote server on git
+
+#set a new remote
+
+git remote add my_awesome_new_remote_repo git@git.assembla.com:portfolio/space.space_name.git
+
+
+#Verify new remote
+
+git remote -v
+
+> my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (fetch)
+> my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (push)
+
+
+-----------
+
