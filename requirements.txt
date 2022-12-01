@@ -1,4 +1,4 @@
-bcrypt==3.2.0
+# bcrypt==3.2.0
 beautifulsoup4==4.10.0
 black==22.10.0
 debugpy==1.6.0

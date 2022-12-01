@@ -11,4 +11,4 @@ class TestSum(TestCase):
         self.assertEqual(two_integers_sum(1, 2), 3)
     
     def test_sum_fail(self):
-        self.assertEqual(two_integers_sum(1,2) 5)
+        self.assertEqual(two_integers_sum(1,2), 5)
