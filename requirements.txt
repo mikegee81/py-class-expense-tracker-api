@@ -70,7 +70,7 @@ louis==3.20.0
 lxml==4.8.0
 macaroonbakery==1.3.1
 Magnus==1.0.3
-Mako==1.1.3
+Mako==1.2.2
 MarkupSafe==2.0.1
 mate-hud==22.4.4
 mate-menu==22.4.1
