@@ -86,7 +86,7 @@ netifaces==0.11.0
 nodeenv==1.7.0
 notify2==0.3
 numpy==1.21.5
-oauthlib==3.2.0
+oauthlib==3.2.1
 olefile==0.46
 onboard==1.4.1
 packaging==21.3
