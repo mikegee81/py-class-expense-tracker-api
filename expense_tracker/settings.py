@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "restapi",
 ]
 
 MIDDLEWARE = [
@@ -75,10 +76,14 @@ WSGI_APPLICATION = "expense_tracker.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": BASE_DIR / "db.postgresql",
-    }
+    # Postgres
+    # "default": {
+    #     "ENGINE": "django.db.backends.postgresql",
+    #     "NAME": BASE_DIR / "db.postgresql",
+    # }
+
+    'default': {"ENGINE": "django.db.backends.sqlite3", "NAME": BASE_DIR / "db.sqlite3"}
+
 }
 
 
